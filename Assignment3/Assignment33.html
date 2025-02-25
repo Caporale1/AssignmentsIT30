@@ -1,0 +1,63 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3 - Chapter 10 Demo</title>
+
+  <!-- TODO #1 (External CSS): Link to an external CSS file -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- TODO #2 (Internal CSS): Define a style block -->
+  <style>
+    /* 
+      Chapter 10 (CSS Basics): 
+      This internal CSS applies a light gray background to the <body> 
+      and styles the <footer> with centered text and a darker background.
+    */
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- TODO #3 (Inline CSS): Add inline styling to the <h1> -->
+  <h1 style="color: blue; font-family: 'Georgia', serif;">
+    Welcome to My Chapter 10 Demo
+  </h1>
+  <!-- 
+    Chapter 11 (Colors) & Chapter 12 (Fonts & Text):
+    - The 'color' property (Chapter 11) sets the text to blue.
+    - The 'font-family' property (Chapter 12) specifies a serif font (Georgia).
+    - Inline styles override both internal and external styles in the CSS cascade.
+  -->
+
+  <p>
+    This paragraph should demonstrate <strong>inheritance</strong>.
+    If you set a 'color' or 'font-family' on the <body> or a parent element,
+    it should automatically apply here, unless it's overridden.
+  </p>
+  
+  <p>
+    Modify colors, fonts, text size, etc., in your external or internal CSS.
+    Observe how the CSS cascade and inheritance affect these paragraphs
+    vs. any inline-styled elements.
+  </p>
+
+  <!-- TODO #4 (Demonstrate Cascade) -->
+  <footer>
+    <p>&copy; 2025 My Demo Site</p>
+  </footer>
+
+</body>
+</html>
